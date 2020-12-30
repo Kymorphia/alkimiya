@@ -1,2 +1,2 @@
 # alkimiya
-Support and public repository for Alkimiya
+Repository for reporting Issues and public data for Alkimiya.
