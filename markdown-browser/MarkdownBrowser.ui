@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.2 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkTextTagTable" id="TagTable">
+    <child type="tag">
+      <object class="GtkTextTag" id="B">
+        <property name="name">B</property>
+        <property name="weight">700</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="I">
+        <property name="name">I</property>
+        <property name="font">Italic</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="A">
+        <property name="name">A</property>
+        <property name="foreground_rgba">rgb(114,159,207)</property>
+        <property name="underline">single</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="L1">
+        <property name="name">L1</property>
+        <property name="pixels_above_lines">4</property>
+        <property name="pixels_below_lines">4</property>
+        <property name="left_margin">16</property>
+        <property name="indent">-16</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="L2">
+        <property name="name">L2</property>
+        <property name="pixels_above_lines">4</property>
+        <property name="pixels_below_lines">4</property>
+        <property name="left_margin">32</property>
+        <property name="indent">-16</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="L3">
+        <property name="name">L3</property>
+        <property name="pixels_above_lines">4</property>
+        <property name="pixels_below_lines">4</property>
+        <property name="left_margin">48</property>
+        <property name="indent">-16</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="L4">
+        <property name="name">L4</property>
+        <property name="pixels_above_lines">4</property>
+        <property name="pixels_below_lines">4</property>
+        <property name="left_margin">64</property>
+        <property name="indent">-16</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="L5">
+        <property name="name">L5</property>
+        <property name="pixels_above_lines">4</property>
+        <property name="pixels_below_lines">4</property>
+        <property name="left_margin">80</property>
+        <property name="indent">-16</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="L6">
+        <property name="name">L6</property>
+        <property name="pixels_above_lines">4</property>
+        <property name="pixels_below_lines">4</property>
+        <property name="left_margin">96</property>
+        <property name="indent">-16</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="L7">
+        <property name="name">L7</property>
+        <property name="pixels_above_lines">4</property>
+        <property name="pixels_below_lines">4</property>
+        <property name="left_margin">112</property>
+        <property name="indent">-16</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="L8">
+        <property name="name">L8</property>
+        <property name="pixels_above_lines">4</property>
+        <property name="pixels_below_lines">4</property>
+        <property name="left_margin">128</property>
+        <property name="indent">-16</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="L9">
+        <property name="name">L9</property>
+        <property name="pixels_above_lines">4</property>
+        <property name="pixels_below_lines">4</property>
+        <property name="left_margin">144</property>
+        <property name="indent">-16</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="L10">
+        <property name="name">L10</property>
+        <property name="pixels_above_lines">4</property>
+        <property name="pixels_below_lines">4</property>
+        <property name="left_margin">160</property>
+        <property name="indent">-16</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="H1">
+        <property name="name">H1</property>
+        <property name="weight">700</property>
+        <property name="scale">2</property>
+        <property name="pixels_above_lines">8</property>
+        <property name="pixels_below_lines">8</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="H2">
+        <property name="name">H2</property>
+        <property name="weight">700</property>
+        <property name="scale">1.75</property>
+        <property name="pixels_above_lines">8</property>
+        <property name="pixels_below_lines">8</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="H3">
+        <property name="name">H3</property>
+        <property name="weight">700</property>
+        <property name="scale">1.5</property>
+        <property name="pixels_above_lines">8</property>
+        <property name="pixels_below_lines">8</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="H4">
+        <property name="name">H4</property>
+        <property name="weight">700</property>
+        <property name="scale">1.3</property>
+        <property name="pixels_above_lines">8</property>
+        <property name="pixels_below_lines">8</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="H5">
+        <property name="name">H5</property>
+        <property name="weight">700</property>
+        <property name="scale">1.2</property>
+        <property name="pixels_above_lines">8</property>
+        <property name="pixels_below_lines">8</property>
+      </object>
+    </child>
+    <child type="tag">
+      <object class="GtkTextTag" id="H6">
+        <property name="name">H6</property>
+        <property name="weight">700</property>
+        <property name="scale">1.1000000000000001</property>
+        <property name="pixels_above_lines">8</property>
+        <property name="pixels_below_lines">8</property>
+      </object>
+    </child>
+  </object>
+  <object class="GtkTextBuffer" id="HelpTextBuffer">
+    <property name="tag_table">TagTable</property>
+  </object>
+  <object class="GtkListStore" id="TopicListStore">
+    <columns>
+      <!-- column-name title -->
+      <column type="gchararray"/>
+      <!-- column-name index -->
+      <column type="guint"/>
+    </columns>
+  </object>
+  <object class="GtkImage" id="image1">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="tooltip_text" translatable="yes">Go to preview topic visited</property>
+    <property name="stock">gtk-go-back</property>
+    <property name="icon_size">3</property>
+  </object>
+  <object class="GtkImage" id="image2">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="tooltip_text" translatable="yes">Go to next topic visited</property>
+    <property name="stock">gtk-go-forward</property>
+    <property name="icon_size">3</property>
+  </object>
+  <object class="GtkImage" id="image3">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="tooltip_text" translatable="yes">Click mouse cursor on an interface to select help topic</property>
+    <property name="stock">gtk-help</property>
+    <property name="icon_size">3</property>
+  </object>
+  <object class="GtkImage" id="image4">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-home</property>
+    <property name="icon_size">3</property>
+  </object>
+  <object class="GtkWindow">
+    <property name="can_focus">False</property>
+    <child type="titlebar">
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkBox" id="HelpWidget">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkBox" id="HelpToolbar">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_left">4</property>
+            <property name="margin_right">4</property>
+            <property name="margin_top">4</property>
+            <property name="margin_bottom">4</property>
+            <property name="spacing">4</property>
+            <child>
+              <object class="GtkButton" id="BackBtn">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="image">image1</property>
+                <property name="always_show_image">True</property>
+                <signal name="clicked" handler="back" swapped="no"/>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="ForwardBtn">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="image">image2</property>
+                <property name="always_show_image">True</property>
+                <signal name="clicked" handler="forward" swapped="no"/>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkSearchEntry" id="SearchEntry">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="tooltip_text" translatable="yes">Search help topics</property>
+                <property name="primary_icon_name">edit-find-symbolic</property>
+                <property name="primary_icon_activatable">False</property>
+                <property name="primary_icon_sensitive">False</property>
+              </object>
+              <packing>
+                <property name="expand">True</property>
+                <property name="fill">True</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="ClickForHelpBtn">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="image">image3</property>
+                <property name="always_show_image">True</property>
+                <signal name="clicked" handler="clicker" swapped="no"/>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="pack_type">end</property>
+                <property name="position">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="HomeBtn">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="image">image4</property>
+                <signal name="clicked" handler="home" swapped="no"/>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">4</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkPaned" id="HelpPaned">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="wide_handle">True</property>
+            <child>
+              <object class="GtkScrolledWindow">
+                <property name="width_request">200</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="margin_left">4</property>
+                <property name="margin_right">4</property>
+                <property name="margin_top">4</property>
+                <property name="margin_bottom">4</property>
+                <property name="shadow_type">in</property>
+                <child>
+                  <object class="GtkTreeView" id="TopicTreeView">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="model">TopicListStore</property>
+                    <property name="headers_visible">False</property>
+                    <property name="search_column">0</property>
+                    <property name="show_expanders">False</property>
+                    <child internal-child="selection">
+                      <object class="GtkTreeSelection"/>
+                    </child>
+                    <child>
+                      <object class="GtkTreeViewColumn">
+                        <property name="sizing">fixed</property>
+                        <property name="title" translatable="yes">Title</property>
+                        <child>
+                          <object class="GtkCellRendererText"/>
+                          <attributes>
+                            <attribute name="text">0</attribute>
+                          </attributes>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="resize">False</property>
+                <property name="shrink">True</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkScrolledWindow" id="TextScrollWin">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="margin_left">2</property>
+                <property name="margin_right">2</property>
+                <property name="margin_top">2</property>
+                <property name="margin_bottom">2</property>
+                <property name="shadow_type">in</property>
+                <child>
+                  <object class="GtkTextView" id="HelpTextView">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="events">GDK_POINTER_MOTION_MASK | GDK_BUTTON_PRESS_MASK | GDK_LEAVE_NOTIFY_MASK | GDK_STRUCTURE_MASK</property>
+                    <property name="editable">False</property>
+                    <property name="wrap_mode">word</property>
+                    <property name="cursor_visible">False</property>
+                    <property name="buffer">HelpTextBuffer</property>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="resize">True</property>
+                <property name="shrink">True</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
