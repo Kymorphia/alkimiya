@@ -1,7 +1,7 @@
 /*
  * MIT License
  *
- * Copyright (C) 2021 Kymorphia, PBC - http://www.kymorphia.com
+ * Copyright (C) 2021 Kymorphia, PBC - https://www.kymorphia.com
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -247,7 +247,7 @@ markdown_browser_class_init (MarkdownBrowserClass *klass)
                          DEFAULT_BULLET_CHARS, G_PARAM_READWRITE));
   g_object_class_install_property (obj_class, PROP_HOME_TOPIC,
     g_param_spec_string ("home-topic", "HomeTopic", "Home topic or NULL to disable",
-                         DEFAULT_HOME_TOPIC, G_PARAM_READWRITE | G_PARAM_CONSTRUCT_ONLY));
+                         DEFAULT_HOME_TOPIC, G_PARAM_READWRITE));
 
   // Compile regular expressions into GRegex structures
   for (i = 0; i < REGEX_COUNT; i++)
