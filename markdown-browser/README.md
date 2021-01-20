@@ -13,15 +13,15 @@ The original intent of this widget was to create a light weight help system base
 **Extras**
 * GTK icons can be specified as image urls with a "icon:" prefix, such as \[Alt icon text](icon:gtk-home), can also have a size field like \[Large icon](icon:48:gtk-home).
 
-## Screenshots
-![Screenshot showing this README.md](screenshot1.png)
-![Screenshot of Alkimiya help showing GTK icon support](screenshot2.png)
-
 Please see the [Test](test) topic for examples of all currently supported Markdown syntax.
 
 We welcome pull requests for improvements and bug fixes.
 
 Currently there are two GtkWidget derived object types: **MarkdownBrowser**, the main browser widget, and **MarkdownBrowserDialog**, a simple dialog containing a MarkdownBrowser widget.
+
+## Screenshots
+![Screenshot showing this README.md](screenshot1.png)
+![Screenshot of Alkimiya help showing GTK icon support](screenshot2.png)
 
 ## MarkdownBrowserDialog
 A GtkDialog with a MarkdownBrowser widget in it's content area.
